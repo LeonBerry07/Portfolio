@@ -1,0 +1,223 @@
+.landingpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(63, 44, 96);
+    border-bottom: 1px solid #a54b4b;
+    flex: 1;
+    width: 100%;
+}
+
+a { 
+    text-decoration: none; 
+    color: rgb(182, 179, 200);
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(99, 19, 43);
+}
+
+
+
+
+/* navs */
+
+.top {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.foot {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+
+/* Perfil */
+
+.tim {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    width: 20%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 27px;
+}
+
+.image {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.bru {
+    border-radius: 300px;
+    padding: 70px;
+    height: 249px;
+}
+
+
+
+
+/* About Me */
+
+.about {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 14px;
+    width: 50%;
+    border: 1px solid #000;
+    border-radius: 27px;
+}
+
+
+
+
+/* Skills */
+
+.skills {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills1 {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 27px;
+}
+
+.skills2 {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 27px;
+}
+
+
+
+
+/* Projects */
+
+.boxes {
+    text-align: center;
+}
+
+.box {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 27px;
+}
+
+.box2 {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 27px;
+}
+.box3 {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 27px;
+}
+
+
+
+/* Contact */
+
+.contact {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    padding: 5px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 27px;
+}
+
+.email {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 27px;
+}
+.email { 
+    text-decoration: none; 
+    color: rgb(182, 179, 200);
+    cursor: pointer;
+}
+
+.email:hover {
+    color: rgb(99, 19, 43);
+}
+
+.lin {
+    border-radius: 300px;
+    padding: 70px;
+    height: 100px;
+}
+
+
+
+
+/* Secciones */
+
+.title {
+    font-size: large;
+    font-weight: 2000;
+    color: aqua;
+    padding-bottom: 30px;
+    padding-top: 90px;
+}
