@@ -100,7 +100,7 @@ class LandingPage extends React.Component{
             </p>
 
             <p className="text">
-                I work as a Fullstack Developer oriented to Back-End, and with knowledge of photo editing.
+            I work as a Fullstack Developer, with a background in electronics and sound engineering, I also have knowledge of video editing and photography.
             </p>
 
             <p>    
@@ -119,7 +119,7 @@ class LandingPage extends React.Component{
             </p>
 
             <p className="text">
-                Me desempeño como Desarrollador Fullstack orientado al Back-End, y con conocimientos de edición de fotografía.
+            Me desempeño como Desarrollador Fullstack, con background en electrónica e ingenieria en sonido, también tengo conocimientos de edición de video y fotografía.
             </p>
 
             <p>    
@@ -231,7 +231,7 @@ class LandingPage extends React.Component{
             <img className="lin" src={gmail} alt="Food's Lyon"/>
 
             <p ref={this.emailRef}>
-                altairconnor12@gmail.com
+                leonberry07@gmail.com
             </p>
 
             <button className="email" onClick={this.copiarEmailAlPortapapeles}>
