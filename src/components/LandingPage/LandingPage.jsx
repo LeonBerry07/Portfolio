@@ -9,6 +9,8 @@ const gmail = 'gmail.png';
 const copy = 'portap.png';
 const lin = '174857.png';
 const dealup = 'https://start-bussines.vercel.app/';
+const deal = 'lod.jpg';
+const react = 'logo512.png';
 {/* <img className="bru" src={url13} alt="Food's Lyon"/> */}
 {/* <img className="bru" src={url12} alt="Food's Lyon"/> */}
 
@@ -77,9 +79,9 @@ class LandingPage extends React.Component{
 
             <div className="tim">
                     
-            <div className="info">
-            <p>Bruno Leonel Mendiberry</p>
-            <p>Full Stack Developer</p>
+            <div>
+            <p className="name">Bruno Leonel Mendiberry</p>
+            <p className="name">Full Stack Developer</p>
             </div>
 
             <div className="image"> 
@@ -138,9 +140,13 @@ class LandingPage extends React.Component{
             
             <div className="skills">
 
-            <div className="skills1">            
+            <div className="skills1">           
             <p>
             Javascript
+            </p>
+
+            <p>
+            Typescript
             </p>
 
             <p>
@@ -193,18 +199,21 @@ class LandingPage extends React.Component{
                 
 
             <div className="box">
-                <button className='box'>
+                <img className="project" src={react} alt="Food's Lyon"/>
+                {/* <button className='box'> */}
                 <RouterLink to='' target="_blank">Lyon Berry (En construcción)</RouterLink>
-                </button>
+                {/* </button> */}
             </div>
 
             <div className="box">
-                <button className='box'>
+                <img className="project" src={react} alt="Food's Lyon"/>
+                {/* <button className='box'> */}
                 <RouterLink to='' target="_blank">Videogames (En construcción)</RouterLink>
-                </button>
+                {/* </button> */}
             </div>
 
             <div className="box">
+                <img className="project" src={deal} alt="Food's Lyon"/>
                 <button className='box'>
                 <RouterLink to='https://start-bussines.vercel.app/' target="_blank">Deal Up!</RouterLink>
                 </button>
