@@ -5,12 +5,13 @@ import'./LandingPage.css'
 
 const url12 = 'me.jpg';
 // const url13 = 'distopya.jpg';
-const gmail = 'gmail.png';
+const gmail = 'letter.png';
 const copy = 'portap.png';
 const lin = '174857.png';
 const dealup = 'https://start-bussines.vercel.app/';
 const deal = 'lod.jpg';
 const react = 'logo512.png';
+const github = 'Github.png'
 {/* <img className="bru" src={url13} alt="Food's Lyon"/> */}
 {/* <img className="bru" src={url12} alt="Food's Lyon"/> */}
 
@@ -97,6 +98,10 @@ class LandingPage extends React.Component{
 
             <div className="about">
 
+            {/* <p>
+                English
+            </p>     */}
+
             <p>
                 Hi, i am Bruno Leonel Mendiberry 👋
             </p>
@@ -115,6 +120,10 @@ class LandingPage extends React.Component{
             </div>
 
             <div className="about">
+
+            {/* <p>
+                Español
+            </p>     */}
 
             <p>
                 Hola, soy Bruno Leonel Mendiberry 👋
@@ -200,23 +209,23 @@ class LandingPage extends React.Component{
 
             <div className="box">
                 <img className="project" src={react} alt="Food's Lyon"/>
-                {/* <button className='box'> */}
-                <RouterLink to='' target="_blank">Lyon Berry (En construcción)</RouterLink>
-                {/* </button> */}
+                <div className='box2'>
+                <RouterLink to='' target="_blank">Instrumentals Store (Soon)</RouterLink>
+                </div>
             </div>
 
             <div className="box">
                 <img className="project" src={react} alt="Food's Lyon"/>
-                {/* <button className='box'> */}
-                <RouterLink to='' target="_blank">Videogames (En construcción)</RouterLink>
-                {/* </button> */}
+                <div className='box2'>
+                <RouterLink to='' target="_blank">Videogames (Soon)</RouterLink>
+                </div>
             </div>
 
             <div className="box">
                 <img className="project" src={deal} alt="Food's Lyon"/>
-                <button className='box'>
+                <div className='box2'>
                 <RouterLink to='https://start-bussines.vercel.app/' target="_blank">Deal Up!</RouterLink>
-                </button>
+                </div>
             </div>
             
             </div>
@@ -253,6 +262,13 @@ class LandingPage extends React.Component{
             <div className="contact">
             <RouterLink to='https://www.linkedin.com/in/bruno-leonel-a40110260/'>
                 <img className="lin" src={lin} alt="Food's Lyon"/>
+            </RouterLink>
+            
+            </div>
+
+            <div className="contact">
+            <RouterLink to='https://github.com/LeonBerry07'>
+                <img className="lin" src={github} alt="Food's Lyon"/>
             </RouterLink>
             
             </div>

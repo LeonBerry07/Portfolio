@@ -80,7 +80,7 @@ a:hover {
 /* About Me */
 
 .about {
-    background-color: #333;
+    background-color: rgb(63, 44, 96);
     color: #fff;
     text-align: center;
     margin: 0 auto;
@@ -157,7 +157,7 @@ a:hover {
     background-color: #333;
     color: #fff;
     display: inline-block;
-    width: 30%;
+    width: 40%;
     margin: 10px;
     border: 1px solid #000;
     box-sizing: border-box;
@@ -179,13 +179,14 @@ a:hover {
 /* Contact */
 
 .contact {
-    background-color: #333;
+    background-color: rgb(63, 44, 96);
     color: #fff;
     text-align: center;
-    width: 30%;
+    display: inline-block;
+    width: 25%;
     margin: 0 auto;
     margin-bottom: 70px;
-    padding: 5px;
+    padding: 0px;
     /* border: 1px solid #000; */
     box-sizing: border-box;
     border-radius: 27px;
@@ -212,8 +213,8 @@ a:hover {
 }
 
 .lin {
-    border-radius: 300px;
-    padding: 70px;
+    border-radius: 0px;
+    padding: 40px;
     height: 100px;
 }
 
