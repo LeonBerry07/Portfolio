@@ -3,7 +3,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { Link } from "react-scroll";
 import'./LandingPage.css'
 
-const url12 = 'profile.jpg';
+const url12 = 'Profile.jpg';
 // const url13 = 'distopya.jpg';
 const gmail = 'letter.png';
 const copy = 'portap.png';
