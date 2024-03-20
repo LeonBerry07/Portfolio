@@ -12,6 +12,7 @@ const dealup = 'https://start-bussines.vercel.app/';
 const deal = 'lod.jpg';
 const react = 'logo512.png';
 const github = 'Github.png'
+const sunset = 'Reach.jpg';
 {/* <img className="bru" src={url13} alt="Food's Lyon"/> */}
 {/* <img className="bru" src={url12} alt="Food's Lyon"/> */}
 
@@ -124,12 +125,22 @@ class LandingPage extends React.Component{
                 </div>
 
 
-            <div className="tim">
-                    
-            <div>
-            <p className="name">Bruno Leonel Mendiberry</p>
-            <p className="name">Full Stack Developer</p>
+            
+        
+
+            <div className="proof">
+                <div className="nombre">
+                <p className="bruno">Bruno</p>
+                <p className="mendi">Mendiberry</p>
+                </div>
+                <div className="oficio">
+                <p className="full">Full Stack</p>
+                <p className="dev">Developer</p>
+                </div>
             </div>
+            
+
+            <div className="tim">
 
             <div className="image"> 
             <img className="bru" src={url12} alt="Food's Lyon"/>
@@ -140,7 +151,7 @@ class LandingPage extends React.Component{
 
 
 
-            <section id="about" className="title">About Me</section>
+            <section id="about" className="aboutme">About Me</section>
 
             <div className="about">
 
