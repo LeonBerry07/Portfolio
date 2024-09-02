@@ -317,14 +317,14 @@ class LandingPage extends React.Component{
             </div>
 
             <div className="contact">
-            <RouterLink to='https://www.linkedin.com/in/bruno-leonel-a40110260/'>
+            <RouterLink to='https://www.linkedin.com/in/bruno-leonel-a40110260/' target="_blank">
                 <img className="lin" src={lin} alt="Food's Lyon"/>
             </RouterLink>
             
             </div>
 
             <div className="contact">
-            <RouterLink to='https://github.com/LeonBerry07'>
+            <RouterLink to='https://github.com/LeonBerry07' target="_blank">
                 <img className="lin" src={github} alt="Food's Lyon"/>
             </RouterLink>
             
