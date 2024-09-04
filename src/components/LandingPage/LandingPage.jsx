@@ -10,10 +10,18 @@ const copy = 'portap.png';
 const lin = '174857.png';
 const dealup = 'https://start-bussines.vercel.app/';
 const deal = 'lod.jpg';
-const react = 'logo512.png';
 const github = 'Github.png'
 const sunset = 'Reach.jpg';
 const js = 'js.png';
+const ts = 'typescript.png';
+const react = 'logo512.png';
+const node = 'node-js.png';
+const express = 'express-js.png';
+const postgre = 'postgre.png';
+const sequelize = 'sequelize.png';
+const git = 'git.png';
+const html = 'html-5.png';
+const css = 'css-3.png';
 {/* <img className="bru" src={url13} alt="Food's Lyon"/> */}
 {/* <img className="bru" src={url12} alt="Food's Lyon"/> */}
 
@@ -196,7 +204,7 @@ class LandingPage extends React.Component{
             </p>
 
             <p>
-                Actualemente desarrollo proyectos que me permitan crecer como programador, tanto desde el lado técnico como creativo. Dichos proyectos están relacionados a mis gustos personales e ideas que creo hacen falta implementar en la sociedad.
+                Actualmente desarrollo proyectos que me permitan crecer como programador, tanto desde el lado técnico como creativo. Dichos proyectos están relacionados a mis gustos personales e ideas que creo hacen falta implementar en la sociedad.
             </p>
             </div>
 
@@ -210,27 +218,28 @@ class LandingPage extends React.Component{
             <div className="skills1">
 
             {/* <div className="skills1"> */}
-            {/* <img className='skills-icon' src={js}/>                */}
+            <img className='skills-icon' src={js}/>
             <p className="name-skills">
             Javascript
             </p>
             {/* </div> */}
 
-            {/* <img className='skills-icon' src={js}/>  */}
+            <img className='skills-icon' src={ts}/> 
             <p>
             Typescript
             </p>
 
-            {/* <img className='skills-icon' src={js}/>  */}
+            <img className='skills-icon' src={react}/> 
             <p>
             React.js
             </p>
 
-            {/* <img className='skills-icon' src={js}/>  */}
+            <img className='skills-icon' src={node}/> 
             <p>
             Node.js
             </p>
 
+            <img className='skills-icon' src={express}/>
             <p>
             Express.js
             </p>
@@ -239,26 +248,27 @@ class LandingPage extends React.Component{
 
             <div className="skills2">
 
-            {/* <img className='skills-icon' src={js}/>      */}
+            <img className='skills-icon' src={postgre}/>     
             <p>
             PostgreSQL
             </p>
 
+            <img className='skills-icon' src={sequelize}/>
             <p>
             Sequelize
             </p>
 
-            {/* <img className='skills-icon' src={js}/>  */}
+            <img className='skills-icon' src={git}/> 
             <p>
             GIT
             </p>
             
-            {/* <img className='skills-icon' src={js}/>  */}
+            <img className='skills-icon' src={html}/> 
             <p>
             HTML
             </p>
             
-            {/* <img className='skills-icon' src={js}/>  */}
+            <img className='skills-icon' src={css}/> 
             <p>
             CSS
             </p>
