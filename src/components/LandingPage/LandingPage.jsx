@@ -13,6 +13,7 @@ const deal = 'lod.jpg';
 const react = 'logo512.png';
 const github = 'Github.png'
 const sunset = 'Reach.jpg';
+const js = 'js.png';
 {/* <img className="bru" src={url13} alt="Food's Lyon"/> */}
 {/* <img className="bru" src={url12} alt="Food's Lyon"/> */}
 
@@ -134,7 +135,7 @@ class LandingPage extends React.Component{
                 <p className="mendi">Mendiberry</p>
                 </div>
                 <div className="oficio">
-                <p className="full">Full Stack</p>
+                <p className="full">Web</p>
                 <p className="dev">Developer</p>
                 </div>
             </div>
@@ -206,19 +207,26 @@ class LandingPage extends React.Component{
             
             <div className="skills">
 
-            <div className="skills1">           
-            <p>
+            <div className="skills1">
+
+            {/* <div className="skills1"> */}
+            {/* <img className='skills-icon' src={js}/>                */}
+            <p className="name-skills">
             Javascript
             </p>
+            {/* </div> */}
 
+            {/* <img className='skills-icon' src={js}/>  */}
             <p>
             Typescript
             </p>
 
+            {/* <img className='skills-icon' src={js}/>  */}
             <p>
             React.js
             </p>
 
+            {/* <img className='skills-icon' src={js}/>  */}
             <p>
             Node.js
             </p>
@@ -226,9 +234,12 @@ class LandingPage extends React.Component{
             <p>
             Express.js
             </p>
+            
             </div>
 
             <div className="skills2">
+
+            {/* <img className='skills-icon' src={js}/>      */}
             <p>
             PostgreSQL
             </p>
@@ -237,17 +248,21 @@ class LandingPage extends React.Component{
             Sequelize
             </p>
 
+            {/* <img className='skills-icon' src={js}/>  */}
             <p>
             GIT
             </p>
             
+            {/* <img className='skills-icon' src={js}/>  */}
             <p>
             HTML
             </p>
             
+            {/* <img className='skills-icon' src={js}/>  */}
             <p>
             CSS
             </p>
+
             </div>
 
             {/* Adobe AfterEffects, Photoshop */}

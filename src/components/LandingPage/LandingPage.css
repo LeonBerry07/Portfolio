@@ -234,8 +234,16 @@ a:hover {
     border-radius: 27px;
 }
 
+.skills-icon {
+    border-radius: 30px;
+    padding: 15px;
+    height: 40px;
+    width: 40px;
+}
 
-
+.name-skills {
+    padding: 0px;
+}
 
 /* Projects */
 
