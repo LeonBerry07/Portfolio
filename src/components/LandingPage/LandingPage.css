@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'MAGNETOB';
+    src: url('../../../public/MAGNETOB.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+      
+/* body {
+  font-family: 'MAGNETOB', sans-serif;    
+} */
+
 .landingpage{
     display: flex;
     flex-direction: column;
@@ -115,7 +126,7 @@ a:hover {
 .bruno {
     font-size: 50px;
     font-weight: 27000;
-    font-family: Magneto;
+    font-family: 'MAGNETOB';
     color: rgb(74, 35, 113);
     /* display: inline-block; */
     /* text-align: center; */
@@ -126,7 +137,7 @@ a:hover {
 .mendi {
     font-size: 40px;
     font-weight: 27000;
-    font-family: Magneto;
+    font-family: 'MAGNETOB';
     color: rgb(74, 35, 113);
     /* display: inline-block; */
     /* text-align: center; */
@@ -136,7 +147,7 @@ a:hover {
 .full {
     font-size: 40px;
     font-weight: 27000;
-    font-family: Magneto;
+    font-family: 'MAGNETOB';
     color: rgb(74, 35, 113);
     /* display: inline-block; */
     /* padding-left: 700px; */
@@ -145,7 +156,7 @@ a:hover {
 .dev {
     font-size: 40px;
     font-weight: 27000;
-    font-family: Magneto;
+    font-family: 'MAGNETOB';
     color: rgb(74, 35, 113);
     /* display: inline-block; */
     /* text-align: center; */
