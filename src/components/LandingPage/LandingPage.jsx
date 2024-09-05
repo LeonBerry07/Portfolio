@@ -80,6 +80,10 @@ class LandingPage extends React.Component{
                 </p>
 
                 <p>
+                <Link to="resume" smooth={true} duration={500}>Resume</Link>
+                </p>
+
+                <p>
                 <Link to="contact" smooth={true} duration={500}>Contact</Link>
                 </p>
 
@@ -313,17 +317,10 @@ class LandingPage extends React.Component{
             </div>
             
 
-            {/* vamo */}
-
-            
-
-
-
-
-
-
-
-
+            <section id="resume" className="title">Resume</section>
+            <a href="/Resume_BrunoMendiberry_DevFullstack.pdf" download="Resume_BrunoMendiberry_DevFullstack.pdf">
+            <button className='email'>Download PDF</button>
+            </a>
 
             <section id="contact" className="title">Contact</section>
 
@@ -376,9 +373,13 @@ class LandingPage extends React.Component{
                 </p>
 
                 <p>
+                <Link to="resume" smooth={true} duration={500}>Resume</Link>
+                </p>
+
+                <p>
                 <Link to="contact" smooth={true} duration={500}>Contact</Link>
                 </p>
-                <p>&copy;Bruno Leonel Mendiberry 2023</p>
+                <p>&copy;Bruno Leonel Mendiberry 2024</p>
             </footer>
 
 
