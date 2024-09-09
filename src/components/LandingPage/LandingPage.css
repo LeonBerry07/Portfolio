@@ -89,8 +89,39 @@ a:hover {
     background-color: #333;
     color: #fff;
     text-align: center;
+    font-family: 'MAGNETOB';
     padding: 10px 0;
     margin-bottom: 0px;
+}
+
+.top-uno {
+    display: inline-block;
+    margin: 10px;
+}
+
+.top-dos {
+    display: inline-block;
+    margin: 10px;
+}
+
+.top-tres {
+    display: inline-block;
+    margin: 10px;
+}
+
+.top-cuatro {
+    display: inline-block;
+    margin: 10px;
+}
+
+.top-cinco {
+    display: inline-block;
+    margin: 10px;
+}
+
+.top-seis {
+    display: inline-block;
+    margin: 10px;
 }
 
 .foot {
@@ -381,8 +412,8 @@ a:hover {
     }
     
     .top{
-        flex-direction: column;
-        width: 50%;
+        /* flex-direction: column; */
+        width: 100%;
     }
 
     .foot{

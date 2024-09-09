@@ -66,27 +66,29 @@ class LandingPage extends React.Component{
                 
             
             <header className="top">
+                {/* <div className='top-nav'> */}
 
-                <p>
+                <p className="top-uno">
                 <Link to="about" smooth={true} duration={500}>About</Link>
                 </p>
 
-                <p>
+                <p className="top-dos">
                 <Link to="skills" smooth={true} duration={500}>Skills</Link>
                 </p>
 
-                <p>
+                <p className="top-tres">
                 <Link to="projects" smooth={true} duration={500}>Projects</Link>
                 </p>
 
-                <p>
+                <p className="top-cuatro">
                 <Link to="resume" smooth={true} duration={500}>Resume</Link>
                 </p>
 
-                <p>
+                <p className="top-cinco">
                 <Link to="contact" smooth={true} duration={500}>Contact</Link>
                 </p>
 
+                {/* </div> */}
             </header>
             
             <div class="container">
